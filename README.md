@@ -26,7 +26,7 @@ myself using the `openapi-enforcer` API.
 You can skip this and jump right to the usage example, if you are not interested
 in the background musings.
 
-I am using this middleware in my lectures for "Distributed Systems" and the
+I am using this middleware in my lectures for "Distributed Systems" in the
 bachelor study course "Business Computer Science" of "Corporate State University
 Baden-Württemberg Karlsruhe (DHBW Karlsruhe)". I chose Restify over Express.js
 as it is more tailored torwards REST webservices and I like the concept of the
