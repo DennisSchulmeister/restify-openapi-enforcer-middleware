@@ -1,6 +1,6 @@
 {
   "name": "@dschulmeis/restify-openapi-enforcer-middleware",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Tiny middleware for Restify to validate requests and responses with openapi-enforcer",
   "author": "Dennis Schulmeister-Zimolong",
   "license": "BSD-2-Clause",
