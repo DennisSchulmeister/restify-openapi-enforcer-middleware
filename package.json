@@ -1,5 +1,5 @@
 {
-  "name": "restify-openapi-enforcer-middleware",
+  "name": "@dschulmeis/restify-openapi-enforcer-middleware",
   "version": "1.0.0",
   "description": "Tiny middleware for Restify to validate requests and responses with openapi-enforcer",
   "author": "Dennis Schulmeister-Zimolong",
@@ -22,9 +22,7 @@
   "main": "index.js",
   "type": "module",
   "dependencies": {
-    "openapi-enforcer": "^1.17.0"
-  },
-  "peerDependencies": {
+    "openapi-enforcer": "^1.17.0",
     "restify": "^8.6.1"
   }
 }

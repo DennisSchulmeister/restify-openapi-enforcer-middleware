@@ -90,7 +90,7 @@ const openApiEnforcer = await OpenApiEnforcer(openApiFile, {
     },
 });
 
-server.use(openApiMiddleware(openApiEnforcer));
+server.use(OpenApiEnforcerMiddleware(openApiEnforcer));
 
 // Example for a validated route
 server.post("/address", (req, res, next) => {
