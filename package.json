@@ -24,5 +24,8 @@
   "dependencies": {
     "openapi-enforcer": "^1.17.0",
     "restify": "^8.6.1"
+  },
+  "scripts": {
+    "do-publish": "npm publish --access=public"
   }
 }
