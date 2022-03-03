@@ -30,7 +30,7 @@ I am using this middleware in my lectures for "Distributed Systems" in the
 bachelor study course "Business Computer Science" of "Corporate State University
 Baden-Württemberg Karlsruhe (DHBW Karlsruhe)". I chose Restify over Express.js
 as it is more tailored torwards REST webservices and I like the concept of the
-pre and post handlers as well as content negotation and errors are handled.
+pre and post handlers as well as how content negotation and errors are handled.
 All in all this allows for a very easy means to start developing one's own
 REST webservices without much magic, which is good if you are teaching junior
 students.
