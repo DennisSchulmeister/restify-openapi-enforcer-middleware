@@ -1,0 +1,30 @@
+{
+  "name": "restify-openapi-enforcer-middleware",
+  "version": "1.0.0",
+  "description": "Tiny middleware for Restify to validate requests and responses with openapi-enforcer",
+  "author": "Dennis Schulmeister-Zimolong",
+  "license": "BSD-2-Clause",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DennisSchulmeister/restify-openapi-enforcer-middleware.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DennisSchulmeister/restify-openapi-enforcer-middleware/issues"
+  },
+  "homepage": "https://github.com/DennisSchulmeister/restify-openapi-enforcer-middleware#readme",
+  "keywords": [
+    "restify",
+    "openapi",
+    "middleware",
+    "rest",
+    "webservice"
+  ],
+  "main": "index.js",
+  "type": "module",
+  "dependencies": {
+    "openapi-enforcer": "^1.17.0"
+  },
+  "peerDependencies": {
+    "restify": "^8.6.1"
+  }
+}
