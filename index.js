@@ -15,6 +15,12 @@ import RestifyError from "restify-errors";
  */
 export default function OpenApiEnforcerMiddleware(openApiEnforcer) {
     return (req, res, next) => {
+        // Don't break the CORS OPTIONS pre-flight
+        if (req.method === "OPTIONS") {
+            next();
+            return;
+        }
+
         // Validate requests against the OpenAPI specification
         let requestData = {
             method: req.method,
